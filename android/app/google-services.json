@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "759022779918",
+    "project_id": "stormotion-test",
+    "storage_bucket": "stormotion-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759022779918:android:99442fbce8b183898bc65f",
+        "android_client_info": {
+          "package_name": "com.firebaseauthtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759022779918-95oiuee2sq5ocanbrt5o0sbu1p73vdba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlvw4fUkTSktYuLnIEfJWsa3WnDJVARU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759022779918-95oiuee2sq5ocanbrt5o0sbu1p73vdba.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "759022779918-1n893seqkebff1ivlockq6nc775m9eo6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.firebaseAuthTest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
