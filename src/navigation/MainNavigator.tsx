@@ -14,8 +14,8 @@ export type RootStackParamList = {
 const MainNavigator: React.FC = () => {
   return (
     <Stack.Navigator
-      initialRouteName="Login"
-      screenOptions={{header: () => null}}>
+      initialRouteName="LoginFailed"
+      screenOptions={{header: () => null, animationEnabled: false}}>
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="LoginEmailSent" component={LoginEmailSent} />
       <Stack.Screen name="LoginFailed" component={LoginFailed} />
