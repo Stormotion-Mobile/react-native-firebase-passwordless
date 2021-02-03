@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
-import {Alert, Image, StatusBar, StyleSheet, Text, View} from 'react-native';
+import {Image, StatusBar, StyleSheet, Text, View} from 'react-native';
 import {TextInput, TouchableOpacity} from 'react-native-gesture-handler';
 import {getBottomSpace} from 'react-native-iphone-x-helper';
+import auth from '@react-native-firebase/auth';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -12,8 +14,14 @@ const Login: React.FC = () => {
     ? [styles.button, styles.buttonDisabled]
     : styles.button;
 
-  const onSubmit = () => {
-    Alert.alert(`Email: ${email}`);
+  const onSubmit = async () => {
+    await AsyncStorage.setItem('email', email);
+    auth().sendSignInLinkToEmail(email, {
+      android: {packageName: 'YOUR PACKAGE NAME'},
+      handleCodeInApp: true,
+      iOS: {bundleId: 'com.stormotion.hypno'},
+      url: 'https://stormotiontest.page.link',
+    });
   };
 
   return (

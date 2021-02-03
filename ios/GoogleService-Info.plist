@@ -3,9 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>759022779918-1n893seqkebff1ivlockq6nc775m9eo6.apps.googleusercontent.com</string>
+	<string>759022779918-s7v8j811bote4ip9q2hkmp0q2crvajek.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.759022779918-1n893seqkebff1ivlockq6nc775m9eo6</string>
+	<string>com.googleusercontent.apps.759022779918-s7v8j811bote4ip9q2hkmp0q2crvajek</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>759022779918-1o30ds735kdok4nln9fiimdmj9fsigm5.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
 	<string>AIzaSyDBsMQD1YokUz3smypWLAWBv5WR2naWI1M</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example.firebaseAuthTest</string>
+	<string>com.stormotion.hypno</string>
 	<key>PROJECT_ID</key>
 	<string>stormotion-test</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:759022779918:ios:554f76cb5a32c3828bc65f</string>
+	<string>1:759022779918:ios:08efa1b33411e6538bc65f</string>
 </dict>
 </plist>

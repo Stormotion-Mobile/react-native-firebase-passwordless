@@ -19,10 +19,10 @@
 		63E6C34A3EDD6F75F5E29502 /* libPods-firebaseAuthTest-firebaseAuthTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 806C0F65036F147A5477E0AC /* libPods-firebaseAuthTest-firebaseAuthTestTests.a */; };
 		657B00ED977746EC228417B4 /* libPods-firebaseAuthTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D04004E6CC512974C4BD0E6A /* libPods-firebaseAuthTest.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		CEE23F9425B6352A00B5C34D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE23F9325B6352A00B5C34D /* GoogleService-Info.plist */; };
-		CEE23F9525B6352A00B5C34D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE23F9325B6352A00B5C34D /* GoogleService-Info.plist */; };
-		CEE23F9625B6352A00B5C34D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE23F9325B6352A00B5C34D /* GoogleService-Info.plist */; };
-		CEE23F9725B6352A00B5C34D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE23F9325B6352A00B5C34D /* GoogleService-Info.plist */; };
+		CEDD5CF625C8B25600D51859 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEDD5CF525C8B25600D51859 /* GoogleService-Info.plist */; };
+		CEDD5CF725C8B25600D51859 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEDD5CF525C8B25600D51859 /* GoogleService-Info.plist */; };
+		CEDD5CF825C8B25600D51859 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEDD5CF525C8B25600D51859 /* GoogleService-Info.plist */; };
+		CEDD5CF925C8B25600D51859 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEDD5CF525C8B25600D51859 /* GoogleService-Info.plist */; };
 		D9159D75A6EB1F9B83B78257 /* libPods-firebaseAuthTest-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD25DF152D89A318089DE23C /* libPods-firebaseAuthTest-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +66,8 @@
 		806C0F65036F147A5477E0AC /* libPods-firebaseAuthTest-firebaseAuthTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebaseAuthTest-firebaseAuthTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = firebaseAuthTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD25DF152D89A318089DE23C /* libPods-firebaseAuthTest-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebaseAuthTest-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEE23F9325B6352A00B5C34D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEDD5CF525C8B25600D51859 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEDD5CFE25C8B31400D51859 /* firebaseAuthTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = firebaseAuthTest.entitlements; path = firebaseAuthTest/firebaseAuthTest.entitlements; sourceTree = "<group>"; };
 		D04004E6CC512974C4BD0E6A /* libPods-firebaseAuthTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebaseAuthTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CCA5CE9D4ED603AB84E595 /* Pods-firebaseAuthTest-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseAuthTest-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-firebaseAuthTest-tvOSTests/Pods-firebaseAuthTest-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -130,8 +131,9 @@
 		13B07FAE1A68108700A75B9A /* firebaseAuthTest */ = {
 			isa = PBXGroup;
 			children = (
+				CEDD5CFE25C8B31400D51859 /* firebaseAuthTest.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				CEE23F9325B6352A00B5C34D /* GoogleService-Info.plist */,
+				CEDD5CF525C8B25600D51859 /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -300,6 +302,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = YLU97SY967;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -339,7 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE23F9525B6352A00B5C34D /* GoogleService-Info.plist in Resources */,
+				CEDD5CF725C8B25600D51859 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +352,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				CEE23F9425B6352A00B5C34D /* GoogleService-Info.plist in Resources */,
+				CEDD5CF625C8B25600D51859 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
-				CEE23F9625B6352A00B5C34D /* GoogleService-Info.plist in Resources */,
+				CEDD5CF825C8B25600D51859 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE23F9725B6352A00B5C34D /* GoogleService-Info.plist in Resources */,
+				CEDD5CF925C8B25600D51859 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,7 +678,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = firebaseAuthTest/firebaseAuthTest.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YLU97SY967;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = firebaseAuthTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -684,7 +689,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stormotion.hypno;
 				PRODUCT_NAME = firebaseAuthTest;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -698,7 +703,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = firebaseAuthTest/firebaseAuthTest.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YLU97SY967;
 				INFOPLIST_FILE = firebaseAuthTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -706,7 +713,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stormotion.hypno;
 				PRODUCT_NAME = firebaseAuthTest;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
