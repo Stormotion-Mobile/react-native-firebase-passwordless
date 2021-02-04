@@ -8,13 +8,16 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 const Login: React.FC = () => {
   const [email, setEmail] = useState('');
 
-  const isDisabled = !email;
+  const [sentEmail, setSentEmail] = useState(false);
+
+  const isDisabled = !email || sentEmail;
 
   const buttonStyle = isDisabled
     ? [styles.button, styles.buttonDisabled]
     : styles.button;
 
   const onSubmit = async () => {
+    setSentEmail(true);
     await AsyncStorage.setItem('email', email);
     auth().sendSignInLinkToEmail(email, {
       android: {packageName: 'YOUR PACKAGE NAME'},
@@ -51,7 +54,9 @@ const Login: React.FC = () => {
         onPress={onSubmit}
         style={buttonStyle}
         disabled={isDisabled}>
-        <Text style={styles.buttonText}>Submit</Text>
+        <Text style={styles.buttonText}>
+          {sentEmail ? "We've already sent you an email" : 'Submit'}
+        </Text>
       </TouchableOpacity>
     </View>
   );
